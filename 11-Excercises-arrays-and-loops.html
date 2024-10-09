@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>Excercises</title>
+   </head>
+<body>
+
+
+<script>
+
+let words = ['hello', 'world', 'search', 'good', 'search'];
+for(let i = 0; i < words.length; i++){
+console.log(words);
+};
+let index = -1; /*  The value -1 is commonly used to indicate that the item being searched for has not been found. */
+for (let i = 0; i < words.length; i++) {
+  if (words[i] === 'search') {
+    index = i;  
+    break;
+    
+  }
+}
+ console.log(index);
+
+
+
+ 
+
+word = ['not','found'];
+index = -1;
+for (let i = 0; i < words.length; i++) {
+  if (word[i] === 'search') {
+    index = i;
+  }
+}
+console.log (index);
+
+
+let i = -1;
+const array = ['green','red','blue', 'red'];
+
+function findIndex(array,word){
+ for (let i=0; i< array.length; i++){
+  if (array[i] === word){
+   
+    return i;
+    return-1;
+
+  }
+ };
+};
+
+console.log(findIndex(['green','red','blue','red'], 'red'));
+
+console.log(findIndex(['green','red','blue','red'], 'yellow'));
+
+
+
+</script>
+
+</body>
+    </html>
