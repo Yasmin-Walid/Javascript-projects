@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>Arrays and loops</title>
+   </head>
+
+<body>
+
+
+
+<script>
+  
+/* const myArray = [10, 20, 30];
+console.log (myArray);
+console.log(myArray[0]); 
+console.log(myArray[1]);
+myArray[0] = 99;
+
+[1 , 'hello', true, {name: 'socks'}, [1, 2]];
+
+console.log(typeof [1 , 2]);
+console.log(Array.isArray([1 , 2]));
+console.log(myArray.length); 
+
+myArray.push(100); 
+console.log(myArray);
+
+myArray.splice(0, 1);
+console.log(myArray);
+ */
+
+/* let i = 1;
+
+while(i > 5){
+   console.log(i);
+   i = i + 1;
+};
+
+for (let i = 1; i<= 5; i++){
+console.log(i);
+
+};
+
+
+let randomNumber=0;
+while(randomNumber<0.5){
+   randomeNumber= Math.random();
+}; 
+console.log (randomeNumber); */
+
+
+/* const todoList = ['make dinner','wash dishes','watch youtube'];
+
+for(let i=0; i < todoList.length; i++){
+  const value = todoList[i];
+  console.log(value);
+};
+ */
+
+const nums = [1, 1 ,3];
+const total = 0;
+
+for(let i = 0; i<nums.length; i++){
+   const num =nums[i];
+   total = total+ num;
+};
+console.log (total);
+
+const numsDoubled = [];
+for (let i= 0; i < nums.length; i ++){
+   const num = nums[i];
+   numsDoubled.push(num * 2);
+};
+/* In the line `const num = nums[i];`, the code is accessing an individual element from the `nums` array using its index `i`, and then assigning that element to the variable `num`.
+
+Here’s how it works step by step:
+
+1. `nums[i]` retrieves the element at the index `i` of the array `nums`. Since `i` is changing during each iteration of the loop, this will access different elements of the array on each pass.
+   
+2. The value retrieved from `nums[i]` is then assigned to the constant `num`.
+
+For example, in the first loop where `i = 0`:
+- `nums[0]` will retrieve the first element of the array `nums`, which is `1`.
+- `const num = nums[0];` assigns this value (`1`) to the constant `num`.
+
+This step allows you to work with each element of the array (`nums[i]`) by assigning it to a variable (`num`) during each iteration.
+
+### Example:
+For the array `const nums = [1, 1, 3];`:
+- When `i = 0`, `num = nums[0] = 1`.
+- When `i = 1`, `num = nums[1] = 1`.
+- When `i = 2`, `num = nums[2] = 3`.
+
+This process repeats for each element in the array.
+
+This is used both in the loop that sums the values and in the loop that doubles the numbers (`numsDoubled.push(num * 2);`). */
+
+</script>
+
+</body>
+    </html>
